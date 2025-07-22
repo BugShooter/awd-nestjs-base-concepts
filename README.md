@@ -101,6 +101,7 @@ No code generators or Nest CLI were used—everything was set up manually for le
     ```
 2. Create a new repository on GitHub:
     - **Using GitHub CLI:**
+
         ```bash
         gh repo create <your-repo-name> --public --source . --remote=origin --push
         ```
@@ -116,6 +117,7 @@ No code generators or Nest CLI were used—everything was set up manually for le
                 ```
         - You can specify `--private` instead of `--public` if you want a private repository.
         - This command will create the repo, add the remote, and push your code in one step.
+
     - **Or via the GitHub website:**
         1. Go to https://github.com/new
         2. Create a new repository (do not initialize with README, .gitignore, or license).
