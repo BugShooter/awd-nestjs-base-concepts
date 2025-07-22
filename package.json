@@ -1,0 +1,31 @@
+{
+    "name": "nestjs-base-concepts",
+    "version": "1.0.0",
+    "main": "index.js",
+    "type": "module",
+    "scripts": {
+        "build": "tsc",
+        "clean": "rm -rf dist",
+        "dev": "nodemon",
+        "watch": "tsc --watch",
+        "format": "prettier --write .",
+        "format:check": "prettier --check .",
+        "start": "npm run build && node dist/index.js",
+        "test": "echo \"Error: no test specified\" && exit 1"
+    },
+    "keywords": [],
+    "author": "",
+    "license": "ISC",
+    "description": "",
+    "devDependencies": {
+        "@types/node": "^24.1.0",
+        "nodemon": "^3.1.10",
+        "prettier": "^3.6.2",
+        "ts-node": "^10.9.2"
+    },
+    "dependencies": {
+        "@nestjs/common": "^11.1.5",
+        "@nestjs/core": "^11.1.5",
+        "@nestjs/platform-express": "^11.1.5"
+    }
+}
